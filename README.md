@@ -102,4 +102,33 @@ Drift detection in AWS CloudFormation is a feature that allows you to detect dif
 
 When you create or update a CloudFormation stack, CloudFormation creates a stack drift detection status that indicates whether any resources in the stack differ from the stack template. You can then use the CloudFormation console, AWS CLI, or SDKs to detect drift and view detailed information about the differences.
 
-Drift detection is useful for ensuring that the actual state of your AWS resources matches your expected configuration. If drift is detected, you can take action to reconcile the differences, such as updating the stack to bring it back into compliance with the template, or updating the template to reflect the current state of the resources.
+Drift detection is useful for ensuring that the actual state of your AWS resources matches your expected configuration. If drift is detected, you can take action to reconcile the differences, such as updating the stack to bring it back into compliance with the template or updating the template to reflect the current state of the resources.
+
+# AWS-Codecommit
+
+### What is AWS CodeCommit?
+
+AWS CodeCommit is a version control service hosted by Amazon Web Services that you can use to privately store and manage assets (such as documents, source code, and binary files) in the cloud.
+
+## Introducing CodeCommit
+
+CodeCommit is a secure, highly scalable, managed source control service that hosts private Git repositories. CodeCommit eliminates the need for you to manage your own source control system or worry about scaling its infrastructure. You can use CodeCommit to store anything from code to binaries. It supports the standard functionality of Git, so it works seamlessly with your existing Git-based tools.
+
+## With CodeCommit, you can:
+
+**Benefit from a fully managed service hosted by AWS**. CodeCommit provides high service availability and durability and eliminates the administrative overhead of managing your own hardware and software. There is no hardware to provision and scale and no server software to install, configure, and update.
+
+**Store your code securely**. CodeCommit repositories are encrypted at rest as well as in transit.
+
+**Work collaboratively on code**. CodeCommit repositories support pull requests, where users can review and comment on each other's code changes before merging them to branches; notifications that automatically send emails to users about pull requests and comments; and more.
+
+**Easily scale your version control projects**. CodeCommit repositories can scale up to meet your development needs. The service can handle repositories with large numbers of files or branches, large file sizes, and lengthy revision histories.
+
+**Store anything, anytime**. CodeCommit has no limit on the size of your repositories or on the file types you can store.
+
+**Integrate with other AWS and third-party services**. CodeCommit keeps your repositories close to your other production resources in the AWS Cloud, which helps increase the speed and frequency of your development lifecycle. It is integrated with IAM and can be used with other AWS services and in parallel with other repositories. For more information, see Product and service integrations with AWS CodeCommit.
+
+**Easily migrate files from other remote repositories**. You can migrate to CodeCommit from any Git-based repository.
+
+**Use the Git tools you already know**. CodeCommit supports Git commands as well as its own AWS CLI commands and APIs.
+
