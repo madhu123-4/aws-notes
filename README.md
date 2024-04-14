@@ -25,6 +25,10 @@ Overall, IAM is an essential component of AWS security, providing granular contr
 
 What is EC2, and why is it important?
 
+Amazon Elastic Compute Cloud (Amazon EC2) provides on-demand, scalable computing capacity in the Amazon Web Services (AWS) Cloud. Using Amazon EC2 reduces hardware costs so you can develop and deploy applications faster. You can use Amazon EC2 to launch as many or as few virtual servers as you need, configure security and networking, and manage storage. You can add capacity (scale up) to handle compute-heavy tasks, such as monthly or yearly processes, or spikes in website traffic. When usage decreases, you can reduce capacity (scale down) again.
+
+The following diagram shows a basic architecture of an Amazon EC2 instance deployed within an Amazon Virtual Private Cloud (VPC). In this example, the EC2 instance is within an Availability Zone in the Region. The EC2 instance is secured with a security group, which is a virtual firewall that controls incoming and outgoing traffic. A private key is stored on the local computer and a public key is stored on the instance. Both keys are specified as a key pair to prove the identity of the user. In this scenario, the instance is backed by an Amazon EBS volume. The VPC communicates with the internet using an internet gateway.
+
 ```
 - Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud.
 - Access reliable, scalable infrastructure on demand. Scale capacity within minutes with SLA commitment of 99.99% availability.
@@ -74,13 +78,7 @@ Storage Optimized instances are optimized for applications that require high, se
 They are ideal for tasks like data warehousing, log processing, and distributed file systems.
 ```
 
-Accelerated computing
 
-```
-Accelerated Computing Instances typically come with one or more types of accelerators, such as Graphics Processing Units (GPUs),
-Field Programmable Gate Arrays (FPGAs), or custom Application Specific Integrated Circuits (ASICs). 
-These accelerators offload computationally intensive tasks from the main CPU, enabling faster and more efficient processing for specific workloads.
-```
 
 ![image](https://github.com/iam-veeramalla/aws-devops-zero-to-hero/assets/43399466/fc8e083c-dba5-41a6-94b9-14ebef0255c1)
 
