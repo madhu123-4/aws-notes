@@ -306,3 +306,9 @@ AWS CodeCommit, like any service, has its disadvantages, though they might not b
 
 It's essential to evaluate these factors against your specific requirements and constraints when choosing a version control system for your projects.
 
+
+### AWS CLOUDWATCH
+
+What is AWS CloudWatch?
+
+AWS CloudWatch is a powerful monitoring and observability service provided by Amazon Web Services. It enables you to gain insights into the performance, health, and operational aspects of your AWS resources and applications. CloudWatch collects and tracks metrics, collects and monitors log files, and sets alarms to alert you on certain conditions.
