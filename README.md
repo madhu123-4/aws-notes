@@ -286,3 +286,23 @@ CodeCommit is a secure, highly scalable, managed source control service that hos
 
 **Use the Git tools you already know**. CodeCommit supports Git commands as well as its own AWS CLI commands and APIs.
 
+### Disadvantages of AWS-CodeCommit:
+
+AWS CodeCommit, like any service, has its disadvantages, though they might not be deal-breakers depending on your specific needs and context. Some disadvantages include:
+
+1. **Cost**: While the first 5 active users per month are free, additional users and certain actions (like data transfer out of AWS) incur costs. For large teams or high usage, these costs can add up.
+
+2. **Feature Set**: Compared to some other version control systems (VCS) like GitLab or GitHub, CodeCommit's feature set might be considered more limited. It may lack some advanced features or integrations that developers find useful.
+
+3. **Learning Curve**: If your team is already familiar with Git but new to AWS, there might be a learning curve in understanding how CodeCommit integrates with other AWS services and its specific configurations.
+
+4. **Scalability Limits**: While AWS is designed for scalability, CodeCommit does have some limits, such as the number of repositories per AWS account, which might affect large-scale projects.
+
+5. **Performance**: In some cases, users have reported slower performance compared to other Git hosting services, particularly for larger repositories.
+
+6. **Integration with Other CI/CD Tools**: While CodeCommit can integrate with various CI/CD tools, the integration might not be as seamless as with other VCS platforms.
+
+7. **Region Availability**: AWS services are region-specific, so if you need repositories in multiple regions, you may need to manage them separately or incur additional complexity.
+
+It's essential to evaluate these factors against your specific requirements and constraints when choosing a version control system for your projects.
+
